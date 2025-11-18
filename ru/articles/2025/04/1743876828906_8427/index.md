@@ -8,7 +8,7 @@ description: ''
 icon: 'far fa-file-lines'
 categories:
   - 'linux'
-  - 'terminal'
+  - 'mongodb'
   - 'inDev'
 tags:
   - 'mongodb'
