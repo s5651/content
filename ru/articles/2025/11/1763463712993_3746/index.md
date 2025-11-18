@@ -37,7 +37,7 @@ hash: 'f734f9e519df881c8c1cd5f6b9deef192d9b3464'
 uuid: 'f734f9e5-19df-581c-8c1c-d5f6b9deef19'
 slug: 'f734f9e5-19df-581c-8c1c-d5f6b9deef19'
 
-draft: 1
+draft: 0
 ---
 
 Работа с базами данных в {{< tag "PostgreSQL" >}}.

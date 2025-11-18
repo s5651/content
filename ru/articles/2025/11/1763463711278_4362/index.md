@@ -38,7 +38,7 @@ hash: 'e99a7df9ee74226131fbd228415f1ef00001450e'
 uuid: 'e99a7df9-ee74-5261-a1fb-d228415f1ef0'
 slug: 'e99a7df9-ee74-5261-a1fb-d228415f1ef0'
 
-draft: 1
+draft: 0
 ---
 
 Работа с ролями (пользователями) в {{< tag "PostgreSQL" >}}.

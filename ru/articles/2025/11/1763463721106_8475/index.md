@@ -38,7 +38,7 @@ hash: 'effdd38891c39506785ab5b90e06b2a03eab4da3'
 uuid: 'effdd388-91c3-5506-a85a-b5b90e06b2a0'
 slug: 'effdd388-91c3-5506-a85a-b5b90e06b2a0'
 
-draft: 1
+draft: 0
 ---
 
 Настройка удалённого подключения к {{< tag "PostgreSQL" >}}.

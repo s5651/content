@@ -38,7 +38,7 @@ hash: 'f2e49d9d5891b97928743a4144d4dc655a36a1ac'
 uuid: 'f2e49d9d-5891-5979-9874-3a4144d4dc65'
 slug: 'f2e49d9d-5891-5979-9874-3a4144d4dc65'
 
-draft: 1
+draft: 0
 ---
 
 Обновление кластера {{< tag "PostgreSQL" >}}.

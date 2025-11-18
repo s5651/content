@@ -37,7 +37,7 @@ hash: 'c6f9421d7d6010cfcebf066792e43d751c4ba59b'
 uuid: 'c6f9421d-7d60-50cf-9ebf-066792e43d75'
 slug: 'c6f9421d-7d60-50cf-9ebf-066792e43d75'
 
-draft: 1
+draft: 0
 ---
 
 Работа с импортом баз данных в {{< tag "PostgreSQL" >}}.

@@ -37,7 +37,7 @@ hash: 'ee9d8962939b57492706a01c7d5a716de1ec35ae'
 uuid: 'ee9d8962-939b-5749-8706-a01c7d5a716d'
 slug: 'ee9d8962-939b-5749-8706-a01c7d5a716d'
 
-draft: 1
+draft: 0
 ---
 
 Работа с базами данных в {{< tag "MongoDB" >}}

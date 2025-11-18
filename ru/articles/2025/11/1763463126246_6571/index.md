@@ -37,7 +37,7 @@ hash: 'c3432f1c5c2888e9675dd6ee06564a6c611c8861'
 uuid: 'c3432f1c-5c28-58e9-975d-d6ee06564a6c'
 slug: 'c3432f1c-5c28-58e9-975d-d6ee06564a6c'
 
-draft: 1
+draft: 0
 ---
 
 Работа с базами данных в {{< tag "MariaDB" >}}.

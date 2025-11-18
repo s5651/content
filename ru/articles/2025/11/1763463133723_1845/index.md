@@ -37,7 +37,7 @@ hash: '5843128cc1c34623ce3bb5c0f1f39478ff736bbb'
 uuid: '5843128c-c1c3-5623-8e3b-b5c0f1f39478'
 slug: '5843128c-c1c3-5623-8e3b-b5c0f1f39478'
 
-draft: 1
+draft: 0
 ---
 
 Работа с импортом баз данных в {{< tag "MariaDB" >}}.

@@ -37,7 +37,7 @@ hash: '4b827a7ecf2f5b15a91568e148add588b8c2c181'
 uuid: '4b827a7e-cf2f-5b15-b915-68e148add588'
 slug: '4b827a7e-cf2f-5b15-b915-68e148add588'
 
-draft: 1
+draft: 0
 ---
 
 Работа с экспортом баз данных в {{< tag "PostgreSQL" >}}.

@@ -37,7 +37,7 @@ hash: '401bfd41660e5ea2cdad743a168610b719d64ed3'
 uuid: '401bfd41-660e-5ea2-8dad-743a168610b7'
 slug: '401bfd41-660e-5ea2-8dad-743a168610b7'
 
-draft: 1
+draft: 0
 ---
 
 Работа с коллекциями в {{< tag "MongoDB" >}}

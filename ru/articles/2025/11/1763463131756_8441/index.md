@@ -37,7 +37,7 @@ hash: '9b60efa3a9ecd04deb5003a77a7edfbfaf0a1330'
 uuid: '9b60efa3-a9ec-504d-9b50-03a77a7edfbf'
 slug: '9b60efa3-a9ec-504d-9b50-03a77a7edfbf'
 
-draft: 1
+draft: 0
 ---
 
 Работа с экспортом баз данных в {{< tag "MariaDB" >}}.

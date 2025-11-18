@@ -37,7 +37,7 @@ hash: '75d542d133abc2804ccb04bc879b6e9617e4b2f3'
 uuid: '75d542d1-33ab-5280-9ccb-04bc879b6e96'
 slug: '75d542d1-33ab-5280-9ccb-04bc879b6e96'
 
-draft: 1
+draft: 0
 ---
 
 Работа с инструментом Vacuum в {{< tag "PostgreSQL" >}}.
