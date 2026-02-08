@@ -3,4 +3,6 @@ title: 'Ресурсы'
 weight: '2'
 ---
 
-- [Библиотека по системам и технологиям](https://libsys.ru/)
+- [Kai Kimera](https://kaikim.ru/)
+- [Package Store](https://pkgstore.ru/)
+- [Universal AIK](https://uaik.ru/)
