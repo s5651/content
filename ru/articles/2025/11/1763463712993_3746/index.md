@@ -62,20 +62,38 @@ sudo -u 'postgres' psql -c '\c DB_NAME' -c '\dt'
 sudo -u 'postgres' psql -c '\c DB_NAME' -c '\dt *.*'
 ```
 
-- Создать базу данных `DB_NAME` с владельцем `DB_USER`:
+- Создать базу данных `DB_NAME` с владельцем `DB_USER` при помощи утилиты `createdb`:
 
 ```bash
-sudo -u 'postgres' createdb --owner='DB_USER' --locale='C' 'DB_NAME'
+sudo -u 'postgres' createdb --owner='DB_USER' --locale-provider='builtin' --builtin-locale='C.UTF-8' --encoding='UTF8' 'DB_NAME'
 ```
 
-- Создать базу данных `DB_NAME` из шаблона `template0` с владельцем `DB_USER`:
+- Создать базу данных `DB_NAME` с владельцем `DB_USER` при помощи SQL-команды:
+
+```sql
+create database 'DB_NAME' owner 'DB_USER' locale_provider 'builtin' builtin_locale 'C.UTF-8' encoding 'UTF8';
+```
+
+- Создать базу данных `DB_NAME` из шаблона `template0` с владельцем `DB_USER` при помощи утилиты `createdb`:
 
 ```bash
-sudo -u 'postgres' createdb --owner='DB_USER' --locale='C' --template='template0' 'DB_NAME'
+sudo -u 'postgres' createdb --owner='DB_USER' --locale-provider='builtin' --builtin-locale='C.UTF-8' --encoding='UTF8' --template='template0' 'DB_NAME'
 ```
 
-- Удалить базу данных `DB_NAME`:
+- Создать базу данных `DB_NAME` из шаблона `template0` с владельцем `DB_USER` при помощи SQL-команды:
+
+```sql
+create database 'DB_NAME' owner 'DB_USER' locale_provider 'builtin' builtin_locale 'C.UTF-8' encoding 'UTF8' template 'template0';
+```
+
+- Удалить базу данных `DB_NAME` при помощи утилиты `dropdb`:
 
 ```bash
 sudo -u 'postgres' dropdb --if-exists 'DB_NAME'
+```
+
+- Удалить базу данных `DB_NAME` при помощи SQL-команды:
+
+```sql
+drop database if exists 'your_database_name';
 ```
